@@ -1,0 +1,149 @@
+IDs	subSystems
+SS_1		Arachidonic acid metabolism
+SS_2	Acyl-CoA hydrolysis
+SS_3	Acylglycerides metabolism
+SS_4	Alanine, aspartate and glutamate metabolism
+SS_5	Alkaloids biosynthesis
+SS_6	Amino sugar and nucleotide sugar metabolism
+SS_7	Aminoacyl-tRNA biosynthesis
+SS_8	Androgen metabolism
+SS_9	Arachidonic acid metabolism
+SS_10	Arginine and proline metabolism
+SS_11	Artificial reactions
+SS_12	Ascorbate and aldarate metabolism
+SS_13	Beta oxidation of branched-chain fatty acids (mitochondrial)
+SS_14	Beta oxidation of di-unsaturated fatty acids (n-6) (mitochondrial)
+SS_15	Beta oxidation of di-unsaturated fatty acids (n-6) (peroxisomal)
+SS_16	Beta oxidation of even-chain fatty acids (mitochondrial)
+SS_17	Beta oxidation of even-chain fatty acids (peroxisomal)
+SS_18	Beta oxidation of odd-chain fatty acids (mitochondrial)
+SS_19	Beta oxidation of odd-chain fatty acids (peroxisomal)
+SS_20	Beta oxidation of phytanic acid (peroxisomal)
+SS_21	Beta oxidation of poly-unsaturated fatty acids (mitochondrial)
+SS_22	Beta oxidation of unsaturated fatty acids (n-7) (mitochondrial)
+SS_23	Beta oxidation of unsaturated fatty acids (n-7) (peroxisomal)
+SS_24	Beta oxidation of unsaturated fatty acids (n-9) (mitochondrial)
+SS_25	Beta oxidation of unsaturated fatty acids (n-9) (peroxisomal)
+SS_26	Beta-alanine metabolism
+SS_27	Bile acid biosynthesis
+SS_28	Bile acid recycling
+SS_29	Biopterin metabolism
+SS_30	Biotin metabolism
+SS_31	Blood group biosynthesis
+SS_32	Butanoate metabolism
+SS_33	C5-branched dibasic acid metabolism
+SS_34	Carnitine shuttle (cytosolic)
+SS_35	Carnitine shuttle (endoplasmic reticular)
+SS_36	Carnitine shuttle (mitochondrial)
+SS_37	Carnitine shuttle (peroxisomal)
+SS_38	Cholesterol biosynthesis 1 (Bloch pathway)
+SS_39	Cholesterol biosynthesis 2
+SS_40	Cholesterol biosynthesis 3 (Kandustch-Russell pathway)
+SS_41	Cholesterol metabolism
+SS_42	Chondroitin / heparan sulfate biosynthesis
+SS_43	Chondroitin sulfate degradation
+SS_44	Cysteine and methionine metabolism
+SS_45	Dietary fiber binding
+SS_46	Drug metabolism
+SS_47	Eicosanoid metabolism
+SS_48	Estrogen metabolism
+SS_49	Ether lipid metabolism
+SS_50	Exchange/demand reactions
+SS_51	Fatty acid activation (cytosolic)
+SS_52	Fatty acid activation (endoplasmic reticular)
+SS_53	Fatty acid biosynthesis
+SS_54	Fatty acid biosynthesis (even-chain)
+SS_55	Fatty acid biosynthesis (odd-chain)
+SS_56	Fatty acid biosynthesis (unsaturated)
+SS_57	Fatty acid degradation
+SS_58	Fatty acid desaturation (even-chain)
+SS_59	Fatty acid desaturation (odd-chain)
+SS_60	Fatty acid elongation (even-chain)
+SS_61	Fatty acid elongation (odd-chain)
+SS_62	Fatty acid metabolism
+SS_63	Fatty acid oxidation
+SS_64	Folate metabolism
+SS_65	Formation and hydrolysis of cholesterol esters
+SS_66	Fructose and mannose metabolism
+SS_67	Galactose metabolism
+SS_68	Glucocorticoid biosynthesis
+SS_69	Glutathione metabolism
+SS_70	Glycerolipid metabolism
+SS_71	Glycerophospholipid metabolism
+SS_72	Glycine, serine and threonine metabolism
+SS_73	Glycolysis / Gluconeogenesis
+SS_74	Glycosphingolipid biosynthesis-ganglio series
+SS_75	Glycosphingolipid biosynthesis-globo series
+SS_76	Glycosphingolipid biosynthesis-lacto and neolacto series
+SS_77	Glycosphingolipid metabolism
+SS_78	Glycosylphosphatidylinositol (GPI)-anchor biosynthesis
+SS_79	Glyoxylate and dicarboxylate metabolism
+SS_80	Heme degradation
+SS_81	Heparan sulfate degradation
+SS_82	Hippurate metabolism
+SS_83	Histidine metabolism
+SS_84	Inositol phosphate metabolism
+SS_85	Insect hormone biosynthesis
+SS_86	Isolated
+SS_87	Keratan sulfate biosynthesis
+SS_88	Keratan sulfate degradation
+SS_89	Leukotriene metabolism
+SS_90	Linoleate metabolism
+SS_91	Lipoic acid metabolism
+SS_92	Lysine metabolism
+SS_93	Metabolism of other amino acids
+SS_94	Miscellaneous
+SS_95	N-glycan metabolism
+SS_96	Nicotinate and nicotinamide metabolism
+SS_97	Nucleotide metabolism
+SS_98	O-glycan metabolism
+SS_99	Omega-3 fatty acid metabolism
+SS_100	Omega-6 fatty acid metabolism
+SS_101	Oxidative phosphorylation
+SS_102	Pantothenate and CoA metabolism
+SS_103	Pentose Phosphate Pathway
+SS_104	Pentose and glucuronate interconversions
+SS_105	Pentose phosphate pathway
+SS_106	Peptide metabolism
+SS_107	Phenylalanine metabolism
+SS_108	Phenylalanine, tyrosine and tryptophan biosynthesis
+SS_109	Phosphatidylinositol phosphate metabolism
+SS_110	Pool reactions
+SS_111	Porphyrin metabolism
+SS_112	Propanoate metabolism
+SS_113	Prostaglandin biosynthesis
+SS_114	Protein assembly
+SS_115	Protein degradation
+SS_116	Protein modification
+SS_117	Purine metabolism
+SS_118	Pyrimidine metabolism
+SS_119	Pyruvate metabolism
+SS_120	ROS detoxification
+SS_121	Retinol metabolism
+SS_122	Riboflavin metabolism
+SS_123	Serotonin and melatonin biosynthesis
+SS_124	Sphingolipid metabolism
+SS_125	Starch and sucrose metabolism
+SS_126	Steroid metabolism
+SS_127	Sulfur metabolism
+SS_128	Terpenoid backbone biosynthesis
+SS_129	Thiamine metabolism
+SS_130	Toluene degradation
+SS_131	Transport reactions
+SS_132	Triacylglycerol synthesis
+SS_133	Tricarboxylic acid cycle and glyoxylate/dicarboxylate metabolism
+SS_134	Tryptophan metabolism
+SS_135	Tyrosine metabolism
+SS_136	Ubiquinone and other terpenoid-quinone biosynthesis
+SS_137	Ubiquinone synthesis
+SS_138	Urea cycle
+SS_139	Valine, leucine, and isoleucine metabolism
+SS_140	Vitamin A metabolism
+SS_141	Vitamin B12 metabolism
+SS_142	Vitamin B2 metabolism
+SS_143	Vitamin B6 metabolism
+SS_144	Vitamin C metabolism
+SS_145	Vitamin D metabolism
+SS_146	Vitamin E metabolism
+SS_147	Xenobiotics metabolism
+SS_148	octane oxidation

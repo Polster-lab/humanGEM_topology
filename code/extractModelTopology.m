@@ -90,6 +90,10 @@ writetable(t,'../results/ihuman_rxns.txt','delimiter','\t','QuoteStrings',false)
 t = table(ihuman.mets,ihuman.metNames,ihuman.compNames(ihuman.metComps),ihuman.metFormulas);
 t.Properties.VariableNames = {'mets' 'metNames' 'compartment' 'metFormulas'};
 writetable(t,'../results/ihuman_mets.txt','delimiter','\t','QuoteStrings',false)
+% a table with all unique subSystems in model
+t = table(SSs',subSystems);
+t.Properties.VariableNames = {'IDs' 'subSystems'};
+writetable(t,'../results/ihuman_subsSystems.txt','delimiter','\t','QuoteStrings',false)
 %print a file with date and model version
 fileID = fopen('../results/model_version.txt','w');
 formatSpec = 'ihuman version: %s\ndate: %s';
