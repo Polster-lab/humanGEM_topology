@@ -95,3 +95,4 @@ fileID = fopen('../results/model_version.txt','w');
 formatSpec = 'ihuman version: %s\ndate: %s';
 fprintf(fileID,formatSpec,modelVer,dateStr)
 fclose(fileID);
+rmdir('Human-GEM','s')
