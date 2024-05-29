@@ -95,7 +95,7 @@ t = table(SSs',subSystems);
 t.Properties.VariableNames = {'IDs' 'subSystems'};
 writetable(t,'../results/ihuman_subsSystems.txt','delimiter','\t','QuoteStrings',false)
 %print a file with date and model version
-fileID = fopen('../results/model_version.txt','w');
+fileID = fopen('../model_version.txt','w');
 formatSpec = 'ihuman version: %s\ndate: %s';
 fprintf(fileID,formatSpec,modelVer,dateStr);
 fclose(fileID);
