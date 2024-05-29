@@ -38,7 +38,7 @@ c = array2table(S);
 t = table(ihuman.mets);
 t = [t,c];
 t.Properties.VariableNames = [{'mets'},ihuman.rxns'];
-writetable(t,'../results/S_matrix.txt','delimiter','\t','QuoteStrings',false)
+writetable(t,'../results/ihuman_S_matrix.txt','delimiter','\t','QuoteStrings',false)
 %write a file with the rxnGeneMat
 c = array2table(rxnGeneMat);
 t = table(ihuman.rxns);
@@ -83,8 +83,8 @@ writetable(t,'../results/metSubSystemMatrix.txt','delimiter','\t','QuoteStrings'
 %get lists with rxns ids names and formulas and grRules, also another one
 %with met unique IDs and their names as well compartmentalization
 formulas = constructEquations(ihuman);
-t = table(ihuman.rxns,ihuman.rxnNames,formulas,grRules);
-t.Properties.VariableNames = {'rxns' 'rxnNames' 'formulas' 'grRules'};
+t = table(ihuman.rxns,ihuman.rxnNames,formulas,grRules,ihuman.subSystems);
+t.Properties.VariableNames = {'rxns' 'rxnNames' 'formulas' 'grRules' 'subSystems'};
 writetable(t,'../results/ihuman_rxns.txt','delimiter','\t','QuoteStrings',false)
 %
 t = table(ihuman.mets,ihuman.metNames,ihuman.compNames(ihuman.metComps),ihuman.metFormulas);
@@ -97,6 +97,6 @@ writetable(t,'../results/ihuman_subsSystems.txt','delimiter','\t','QuoteStrings'
 %print a file with date and model version
 fileID = fopen('../results/model_version.txt','w');
 formatSpec = 'ihuman version: %s\ndate: %s';
-fprintf(fileID,formatSpec,modelVer,dateStr)
+fprintf(fileID,formatSpec,modelVer,dateStr);
 fclose(fileID);
 rmdir('Human-GEM','s')
