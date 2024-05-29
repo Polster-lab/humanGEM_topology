@@ -1,4 +1,4 @@
-# ihuman topology
+# humanGEM topology
 
 MATLAB script for extracting the topology of the connectivity between molecular components in humanGEM. As a result the folowing files are produced:
 
@@ -22,8 +22,8 @@ An additional text file storing the model version and the date of last results u
 Clone master branch from Polster-Lab GitHub.
 
 ## Instructions
-To update results in this repository, set the subfolder 'ihuman_topology/code' in this repo as a working directory in MATLAB, then type
-´extractModelTopology´ in the MATLAB command window. Results are stored as .txt files in the subfolder 'ihuman_topology/results'.
+To update results in this repository, set the subfolder 'humanGEM_topology/code' in this repo as a working directory in MATLAB, then type
+´extractModelTopology´ in the MATLAB command window. Results are stored as .txt files in the subfolder 'humanGEM_topology/results'.
 
 Polster Lab, Division of Systems and Synthetic Biology, Chalmers University of Technology.
 
