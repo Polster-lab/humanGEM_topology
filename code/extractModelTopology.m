@@ -44,7 +44,7 @@ c = array2table(rxnGeneMat);
 t = table(ihuman.rxns);
 t = [t,c];
 t.Properties.VariableNames = [{'rxns'},ihuman.genes'];
-writetable(t,'../results/rxnGeneMatrix.txt','delimiter','\t','QuoteStrings',false)
+writetable(t,'../results/ihuman_rxnGeneMatrix.txt','delimiter','\t','QuoteStrings',false)
 %obtain a binary matrix indicating the presence of metabolites in reactions
 %catayzed by each of the model's genes [RGM x logical(S)']
 GeneMetsMatrix = full(rxnGeneMat'*logical(S'));
@@ -52,7 +52,7 @@ c = array2table(GeneMetsMatrix);
 t = table(ihuman.genes);
 t = [t,c];
 t.Properties.VariableNames = [{'genes'},ihuman.mets'];
-writetable(t,'../results/geneMetMatrix.txt','delimiter','\t','QuoteStrings',false)
+writetable(t,'../results/ihuman_geneMetMatrix.txt','delimiter','\t','QuoteStrings',false)
 %generate a matrix indicating the metabolic subsystem for reactions
 %catalysed by each gene's products
 rxnSubsystMat = zeros(length(ihuman.rxns),length(subSystems));
@@ -72,14 +72,14 @@ c.Properties.VariableNames = SSs;
 t = table(ihuman.genes);
 t = [t,c];
 t.Properties.VariableNames(1) = {'genes'};
-writetable(t,'../results/geneSubSystemMatrix.txt','delimiter','\t','QuoteStrings',false)
+writetable(t,'../results/ihuman_geneSubSystemMatrix.txt','delimiter','\t','QuoteStrings',false)
 %
 c = array2table(metSubSystMat);
 c.Properties.VariableNames = SSs;
 t = table(ihuman.mets);
 t = [t,c];
 t.Properties.VariableNames(1) = {'mets'};
-writetable(t,'../results/metSubSystemMatrix.txt','delimiter','\t','QuoteStrings',false)
+writetable(t,'../results/ihuman_metSubSystemMatrix.txt','delimiter','\t','QuoteStrings',false)
 %get lists with rxns ids names and formulas and grRules, also another one
 %with met unique IDs and their names as well compartmentalization
 formulas = constructEquations(ihuman);

@@ -1,2 +1,0 @@
-ihuman version: 1.18.0
-date: 29-May-2024
