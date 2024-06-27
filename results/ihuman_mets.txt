@@ -144,6 +144,9 @@ MAM00073x	(2E,6Z,9Z,12Z)-octadecatetraenoyl-CoA	Peroxisome	C39H58N7O17P3S
 MAM00074c	(2E,7Z,10Z,13Z,16Z)-docosapentaenoyl-CoA	Cytosol	C43H64N7O17P3S
 MAM00075x	(2R)-pristanoyl-CoA	Peroxisome	C40H68N7O17P3S
 MAM00076x	(2R,6R,10R)-trimethyl-hendecanoyl-CoA	Peroxisome	C35H58N7O17P3S
+MAM00077c	(2R)-pristanic acid	Cytosol	C19H37O2
+MAM00077e	(2R)-pristanic acid	Extracellular	C19H37O2
+MAM00077x	(2R)-pristanic acid	Peroxisome	C19H37O2
 MAM00078x	(2S)-pristanoyl-CoA	Peroxisome	C40H68N7O17P3S
 MAM00079x	(2S,6R,10R)-trimethyl-(2E)-hendecenoyl-CoA	Peroxisome	C35H56N7O17P3S
 MAM00080x	(2S,6R,10R)-trimethyl-hendecanoyl-CoA	Peroxisome	C35H58N7O17P3S
@@ -1079,7 +1082,7 @@ MAM00652x	2-hydroxyestrone-4-S-glutathione	Peroxisome	C28H36N3O9S
 MAM00652r	2-hydroxyestrone-4-S-glutathione	Endoplasmic reticulum	C28H36N3O9S
 MAM00653c	2-hydroxyglutarate	Cytosol	C5H6O5
 MAM00654c	2-hydroxyphenylacetate	Cytosol	C8H7O3
-MAM00655x	2-hydroxyphytanoyl-CoA	Peroxisome	C41H70N7O18P3S
+MAM00655x	(3R)-2-hydroxyphytanoyl-CoA	Peroxisome	C41H70N7O18P3S
 MAM00656c	2-lysolecithin pool	Cytosol	C8H19NO5PRCO2
 MAM00656l	2-lysolecithin pool	Lysosome	C8H19NO5PRCO2
 MAM00656r	2-lysolecithin pool	Endoplasmic reticulum	C8H19NO5PRCO2
@@ -4708,11 +4711,11 @@ MAM02745c	physeteric acid	Cytosol	C14H25O2
 MAM02745l	physeteric acid	Lysosome	C14H25O2
 MAM02745r	physeteric acid	Endoplasmic reticulum	C14H25O2
 MAM02745e	physeteric acid	Extracellular	C14H25O2
-MAM02746c	phytanic acid	Cytosol	C20H39O2
-MAM02746x	phytanic acid	Peroxisome	C20H39O2
-MAM02746e	phytanic acid	Extracellular	C20H39O2
-MAM02747c	phytanoyl-CoA	Cytosol	C41H70N7O17P3S
-MAM02747x	phytanoyl-CoA	Peroxisome	C41H70N7O17P3S
+MAM02746c	(3R)-phytanic acid	Cytosol	C20H39O2
+MAM02746x	(3R)-phytanic acid	Peroxisome	C20H39O2
+MAM02746e	(3R)-phytanic acid	Extracellular	C20H39O2
+MAM02747c	(3R)-phytanoyl-CoA	Cytosol	C41H70N7O17P3S
+MAM02747x	(3R)-phytanoyl-CoA	Peroxisome	C41H70N7O17P3S
 MAM02748c	phytoceramide pool	Cytosol	C19H38NO4R
 MAM02749c	phytosphingosine	Cytosol	C18H40NO3
 MAM02750c	PI pool	Cytosol	C11H16O13PR2
@@ -4752,7 +4755,7 @@ MAM02763m	pregnenolone	Mitochondria	C21H32O2
 MAM02763r	pregnenolone	Endoplasmic reticulum	C21H32O2
 MAM02764c	presqualene-PP	Cytosol	C30H49O7P2
 MAM02765c	previtamin D3	Cytosol	C27H44O
-MAM02766x	pristanic acid	Peroxisome	C19H37O2
+MAM02766x	(2S)-pristanic acid	Peroxisome	C19H37O2
 MAM02767c	procollagen-5-hydroxy-L-lysine	Cytosol	C7H14N3O3R2
 MAM02768c	procollagen-L-lysine	Cytosol	C7H14N3O2R2
 MAM02769c	progesterone	Cytosol	C21H30O2
@@ -5097,7 +5100,6 @@ MAM02952c	sulfotaurolithocholate	Cytosol	C26H43NO8S2
 MAM02952e	sulfotaurolithocholate	Extracellular	C26H43NO8S2
 MAM02953c	tachysterol 3	Cytosol	C27H44O
 MAM02954c	TAG epoxide	Cytosol	C2HCl3O
-MAM02955c	tagatose-1,6-bisphosphate	Cytosol	C6H10O12P2
 MAM02956e	TAG-chylomicron pool	Extracellular	C6H5O6R3
 MAM02957e	TAG-extraction	Extracellular	C6H5O6R3
 MAM02958c	TAG-LD pool	Cytosol	C6H5O6R3
@@ -5521,7 +5523,7 @@ MAM00119x	(7Z,10Z,13Z,16Z)-docosatetraenoyl-CoA	Peroxisome	C43H66N7O17P3S
 MAM03419c	Lysophosphatidic Acid	Cytosol	C3H6O5PRCO2
 MAM03417x	Hydroxy Alkyl Chain	Peroxisome	HOR
 MAM00564c	2(S)-pristanal	Cytosol	C19H38O
-MAM02766c	pristanic acid	Cytosol	C19H37O2
+MAM02766c	(2S)-pristanic acid	Cytosol	C19H37O2
 MAM01984c	glycerone	Cytosol	C3H6O3
 MAM00755r	3alpha,7alpha-dihydroxy-5beta-cholest-24-enoyl-CoA	Endoplasmic reticulum	C48H74N7O19P3S
 MAM00618r	25(S)THCA-CoA	Endoplasmic reticulum	C48H76N7O20P3S
@@ -5620,6 +5622,9 @@ MAM03726c	Linoleic Acid ACP (All Cis)	Cytosol	C29H51N2O8PRS
 MAM03725c	Linoelaidic Acid ACP (All Trans)	Cytosol	C29H51N2O8PRS
 MAM03788c	Octadecynoyl-ACP (N-C18:2ACP)	Cytosol	C29H51N2O8PRS
 MAM03787c	Octadecadienoate (N-C18:2)	Cytosol	C18H31O2
+MAM03884c	(3S)-phytanic acid	Cytosol	C20H39O2
+MAM03884e	(3S)-phytanic acid	Extracellular	C20H39O2
+MAM03884x	(3S)-phytanic acid	Peroxisome	C20H39O2
 MAM03887c	Pristanoyl Coenzyme A	Cytosol	C40H68N7O17P3S
 MAM03791m	11-Octadecenoyl Coenzyme A	Mitochondria	C39H64N7O17P3S
 MAM00108x	(6Z,9Z,12Z,15Z)-octadecatetraenoyl-CoA	Peroxisome	C39H58N7O17P3S
@@ -5775,9 +5780,6 @@ MAM02941n	stearoyl-CoA	Nucleus	C39H66N7O17P3S
 MAM02158e	hypothiocyanite	Extracellular	CHNOS
 MAM02986l	thiocyanate	Lysosome	CNS
 MAM02158l	hypothiocyanite	Lysosome	CHNOS
-MAM02158m	hypothiocyanite	Mitochondria	CHNOS
-MAM02986n	thiocyanate	Nucleus	CNS
-MAM02158n	hypothiocyanite	Nucleus	CHNOS
 MAM02946g	sulfate	Golgi apparatus	O4S
 MAM00721g	3,3-diiodo-L-thyronine-4-O-sulfate	Golgi apparatus	C15H12I2NO7S
 MAM00720g	3,3-diiodo-L-thyronine	Golgi apparatus	C15H13I2NO4
@@ -6142,8 +6144,6 @@ MAM00328m	12-oxo-10,11-dihydro-20-COOH-LTB4	Mitochondria	C20H28O6
 MAM00329x	12-oxo-20-carboxy-LTB4	Peroxisome	C20H26O6
 MAM00328x	12-oxo-10,11-dihydro-20-COOH-LTB4	Peroxisome	C20H28O6
 MAM03352x	Cis-6-Dodecenoyl Coenzyme A	Peroxisome	C33H52N7O17P3S
-MAM00678c	2-trans-4-cis-decadienoyl-CoA	Cytosol	C31H46N7O17P3S
-MAM03035c	trans-3-decenoyl-CoA	Cytosol	C31H48N7O17P3S
 MAM02891r	selenomethionine	Endoplasmic reticulum	C5H11NO2Se
 MAM02892r	selenomethionine-se-oxide	Endoplasmic reticulum	C5H11NO3Se
 MAM01115n	5-methyl-THF	Nucleus	C20H24N7O6
@@ -6311,8 +6311,6 @@ MAM03924x	Sebacoyl Coenzyme A	Peroxisome	C31H47N7O19P3S
 MAM03922x	Suberyl Coenzyme A	Peroxisome	C29H43N7O19P3S
 MAM04004x	2,6,10-Trimethyl Undecanoyl Coenzyme A	Peroxisome	C35H58N7O17P3S
 MAM03539m	5-Dodecenoyl Coenzyme A	Mitochondria	C33H52N7O17P3S
-MAM02698m	2,6-Dodecadienoyl Coenzyme A	Mitochondria	C33H50N7O17P3S
-MAM03203m	3,6-Dodecadienoyl Coenzyme A	Mitochondria	C33H50N7O17P3S
 MAM02698x	2,6-Dodecadienoyl Coenzyme A	Peroxisome	C33H50N7O17P3S
 MAM03203x	3,6-Dodecadienoyl Coenzyme A	Peroxisome	C33H50N7O17P3S
 MAM03172m	2,6,9-Dodecatrienoyl Coenzyme A	Mitochondria	C33H48N7O17P3S
@@ -6321,23 +6319,17 @@ MAM03211m	3,6,9-Dodecatrienoyl Coenzyme A	Mitochondria	C33H48N7O17P3S
 MAM03211x	3,6,9-Dodecatrienoyl Coenzyme A	Peroxisome	C33H48N7O17P3S
 MAM03490x	Dodecanedioyl Carnitine	Peroxisome	C19H34NO6
 MAM03972m	7-Tetradecenoyl Coenzyme A	Mitochondria	C35H56N7O17P3S
-MAM03978m	5,8-Tetradecadienoyl Coenzyme A	Mitochondria	C35H54N7O17P3S
 MAM03978x	5,8-Tetradecadienoyl Coenzyme A	Peroxisome	C35H54N7O17P3S
 MAM04041m	Trans5,8Tetradecadienoyl Coenzyme A	Mitochondria	C35H54N7O17P3S
 MAM03288m	5,8,11-Tetradecatrienoyl Coenzyme A	Mitochondria	C35H52N7O17P3S
 MAM03288x	5,8,11-Tetradecatrienoyl Coenzyme A	Peroxisome	C35H52N7O17P3S
 MAM03492x	Tetradecanedioyl Coenzyme A	Peroxisome	C35H55N7O19P3S
 MAM03216m	3-Hydroxyhexadecenoyl Coenzyme A	Mitochondria	C37H60N7O18P3S
-MAM03650m	7,10-Hexadecadienoyl Coenzyme A	Mitochondria	C37H58N7O17P3S
 MAM03982m	Trans7,10-Hexadecadienoyl Coenzyme A	Mitochondria	C37H58N7O17P3S
 MAM03182x	2,7,10-Hexadecatrienoyl Coenzyme A	Peroxisome	C37H56N7O17P3S
 MAM03658m	7,10,13-Hexadecatrienoyl Coenzyme A	Mitochondria	C37H56N7O17P3S
-MAM03274m	4,7,10-Hexadecatrienoyl Coenzyme A	Mitochondria	C37H56N7O17P3S
-MAM03653m	2,4,7,10-Hexadecatetraenoyl Coenzyme A	Mitochondria	C37H54N7O17P3S
 MAM03274x	4,7,10-Hexadecatrienoyl Coenzyme A	Peroxisome	C37H56N7O17P3S
 MAM03653x	2,4,7,10-Hexadecatetraenoyl Coenzyme A	Peroxisome	C37H54N7O17P3S
-MAM03182m	2,7,10-Hexadecatrienoyl Coenzyme A	Mitochondria	C37H56N7O17P3S
-MAM03221m	3,7,10-Hexadecatrienoyl Coenzyme A	Mitochondria	C37H56N7O17P3S
 MAM03221x	3,7,10-Hexadecatrienoyl Coenzyme A	Peroxisome	C37H56N7O17P3S
 MAM03181m	2,7,10,13-Hexadecatetraenoyl Coenzyme A	Mitochondria	C37H54N7O17P3S
 MAM03181x	2,7,10,13-Hexadecatetraenoyl Coenzyme A	Peroxisome	C37H54N7O17P3S
@@ -7590,7 +7582,7 @@ MAM02166e	imidazole-4-acetate	Extracellular	C5H5N2O2
 MAM01332e	aminoacetone	Extracellular	C3H8NO
 MAM02927e	sphinganine	Extracellular	C18H40NO2
 MAM00635e	2-arachidonoylglycerol	Extracellular	C23H38O4
-MAM02766e	pristanic acid	Extracellular	C19H37O2
+MAM02766e	(2S)-pristanic acid	Extracellular	C19H37O2
 MAM00314e	12,13-hydroxyoctadec-9(z)-enoate	Extracellular	C18H33O4
 MAM01220e	9,10-hydroxyoctadec-12(Z)-enoate	Extracellular	C18H33O4
 MAM01841e	fructose-1,6-bisphosphate	Extracellular	C6H10O12P2
@@ -8423,7 +8415,7 @@ MAM03550c	C12:0-Ethanolamide, Didecanoyl Ethanolamide	Cytosol	C14H29NO2
 MAM03977c	C14:0-Ethanolamide, Tetradecanoyl Ethanolamide	Cytosol	C16H33NO2
 MAM20076n	N-hexadecanoylsphing-4-enine	Cytosol	C34H67NO3
 MAM20075c	N-dodecanoylsphing-4-enine	Cytosol	C30H59NO3
-MAM01657r	dehydrodolichol-diphosphate	Endoplasmic reticulum	C100H161O7P2
+MAM01657r	dehydrodolichol-diphosphate	Endoplasmic reticulum	C40H65O7P2
 MAM01252n	acetate	Nucleus	C2H3O2
 MAM01288n	ADP-ribose	Nucleus	C15H21N5O14P2
 MAM20077n	2-O-acetyl-ADP-D-ribose	Nucleus	C17H23N5O15P2
@@ -8455,3 +8447,10 @@ MAM00767n	3-decaprenyl-4-hydroxybenzoate	Nucleus	C57H85O3
 MAM01435m	chenodiol	Mitochondria	C24H39O4
 MAM01729e	dodecanoylcarnitine	Extracellular	C19H37NO4
 MAM00853c	3-oxo-all-cis-6,9,12,15,18-tetracosapentaenoyl-CoA	Cytosol	C45H66N7O18P3S
+MAM20077m	2-(4-carboxy-1-hydroxybutyl)thiamine diphosphate	Mitochondria	C17H25N4O10P2S3-
+MAM20078m	2-(2-methyl-1-hydroxypropyl)thiamine diphosphate	Mitochondria	C16H25N4O8N4P2S2-
+MAM20079m	2-(2-methyl-1-hydroxybutyl)thiamine diphosphate	Mitochondria	C17H27N4O8P2S2-
+MAM20080m	2-(3-methyl-1-hydroxybutyl)thiamine diphosphate	Mitochondria	C17H27N4O8P2S2-
+MAM20081m	2-(1-hydroxypropyl)thiamine diphosphate	Mitochondria	C15H23N4O8P2S2-
+MAM20082m	S-propanoyldihydrolipoamide	Mitochondria	C11H23N1O2S2
+MAM20083x	(2R)-pristanal	Peroxisome	C19H38O
