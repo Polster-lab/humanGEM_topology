@@ -20,13 +20,14 @@ genes = ihuman.genes;
 short = ihuman.geneShortNames;
 S = ihuman.S;
 %get a list of ll unique metabolic subsystems in the model
-subSystems = [];
+subSystemsAll = [];
 for i=1:numel(ihuman.rxns)
     subS = ihuman.subSystems{i};
-    subSystems = [subSystems;subS];
+    subSystemsAll = [subSystemsAll;subS];
 end
-subSystemsAll = subSystems;
-subSystems = unique((subSystems));
+subSystems = unique(subSystemsAll);
+%subSystemsAll = ihuman.subSystems;
+%subSystemsAll = cellfun(@string, subSystemsAll, 'UniformOutput', false);
 SS = strrep(subSystems,' ','_');
 SS = strrep(SS,'-','_');
 SSs = {};
@@ -59,10 +60,10 @@ rxnSubsystMat = zeros(length(ihuman.rxns),length(subSystems));
 geneSubsystMat = zeros(length(ihuman.genes),length(subSystems));
 metSubSystMat = zeros(length(ihuman.mets),length(subSystems));
 for i=1:numel(subSystems)
-    x = find(contains(subSystemsAll,subSystems{i}));
+    x = find(contains(subSystems,subSystems{i}));
     for j=1:length(x)
         genes = find(rxnGeneMat(x(j),:));
-        mets  = find(S(:,i));
+        mets  = find(S(:,x(j)));
         geneSubsystMat(genes,i) = 1;
         metSubSystMat(mets,i) = 1;
     end
